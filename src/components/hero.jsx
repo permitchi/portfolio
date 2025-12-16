@@ -3,7 +3,7 @@ import './components.css'
 function Hero() {
   return (
   <><div className="h-screen snap-y snap-mandatory overflow-y-scroll scroll-smooth scrollbar-hide overflow-x-hidden">
-    <div id="Hero"  class="bg-radial from-lime-100 to-[var(--seagrass)] to-90% relative h-screen w-full snap-start flex items-center justify-start overflow-hidden bg-cover bg-center bg-no-repeat bg-fixed">        
+    <div id="Hero"  className="bg-radial from-lime-100 to-[var(--seagrass)] to-90% relative h-screen w-full snap-start flex items-center justify-start overflow-hidden bg-cover bg-center bg-no-repeat bg-fixed">        
       
       <div className='flex items-center justify-center'>
         <div className="ml-20 max-w-130 gap-6 flex flex-col">
@@ -17,7 +17,7 @@ function Hero() {
         </div>
 
         <div className='mx-20 h-full'>
-          <img src='/white-tri.png' className='flex items-center' />
+          <img src='dist/white-tri.png' className='flex items-center' />
         </div>
       </div>
     </div>

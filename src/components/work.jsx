@@ -1,20 +1,20 @@
 function Work() {
   const workItems = [
     { title: 'Craft Cycle', 
-      imgUrl: '/craftcyclee.png',
+      imgUrl: 'dist/craftcyclee.png',
       description: 'A catalog website for my small business that sells handmade crafts.',
       tags: ['HTML', 'CSS', 'JavaScript', 'JSON'],
       link: 'https://github.com/craftcyclee/craftcyclee.github.io', 
       addLink: 'https://craftcyclee.github.io'
     },
     { title: 'Minaci Accesorries', 
-      imgUrl: '/minaci.jpeg',
+      imgUrl: 'dist/minaci.jpeg',
       description: 'A personal character sheet web app for Dungeons and Dragonns.',
       tags: ['Laravel', 'React', 'Tailwind CSS'],
       link: 'https://github.com/permitchi/RPLism'
     },
     { title: 'BattleSweeper', 
-      imgUrl: '/godot.jpg',
+      imgUrl: 'dist/godot.jpg',
       description: 'A WIP game that combines BattleShips and Mindsweeper.',
       tags: ['Godot', 'GDScript', 'Pixel Art'],
       link: 'https://github.com/permitchi/BattleSweeper' 

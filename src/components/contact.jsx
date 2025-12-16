@@ -34,7 +34,7 @@ function Contact() {
       <div id="Contact" className="px-4 max-w-4xl">
         <h1 className='p-4 mb-4 text-center font-semibold'>Contact Me</h1>
         <div className="flex items-center justify-center gap-20">
-          <img src="/seagrass-tri.png" className='h-100'/>
+          <img src="dist/seagrass-tri.png" className='h-100'/>
           
         <div className='w-20' />
           <form className="contact-form text-2x1" onSubmit={handleSubmit}>
