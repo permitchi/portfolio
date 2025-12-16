@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+.nav-button {
+    padding: 8px 12px;
+    text-align: center;
+    color: black;
+    font-size: 1.5rem;
+}
+.nav-button:hover {
+    color: var(--seagrass);
+    background-color: white;
+    cursor: pointer;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 720px;
+}
+.contact-form label {
+    margin: 0;
+    font-size: 0.95rem;
+}
+.contact-form input,
+.contact-form textarea {
+    width: 120%;
+    padding: 0.5rem 0.75rem;
+    border: 1px solid rgba(15,23,42,0.08);
+    border-radius: 6px;
+    background: white;
+    font-family: inherit;
+}
+.contact-form textarea { resize: vertical; height: 8rem; }
+.contact-form .form-actions { margin-top: 0.5rem; display:flex; gap:0.5rem; }
+.contact-form .submit-button { width: 100%; }
